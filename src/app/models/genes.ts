@@ -85,9 +85,6 @@ export interface Gene {
   similar_genes_network?: SimilarGenesNetwork;
 
   // Similar table (not in mongo document)
-  ab_modality_display_value?: string;
-  safety_rating_display_value?: string;
-  sm_druggability_display_value?: string;
   pharos_class_display_value?: string;
   is_any_rna_changed_in_ad_brain_display_value?: string;
   is_any_protein_changed_in_ad_brain_display_value?: string;
