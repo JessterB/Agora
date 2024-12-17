@@ -119,13 +119,7 @@ export class GeneNominatedTargetsComponent implements OnInit {
           : undefined;
 
         // Populate Druggability display fields
-        if (de.druggability && de.druggability.length) {
-          de.pharos_class_display_value = de.druggability[0].pharos_class
-            ? de.druggability[0].pharos_class
-            : 'No value';
-        } else {
-          de.pharos_class_display_value = 'No value';
-        }
+        de.pharos_class_display_value = de.druggability.pharos_class;
       });
 
       this.genes = genes;

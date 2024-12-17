@@ -205,20 +205,18 @@ export const geneMock1: Gene = {
       tissue: 'STG',
     },
   ],
-  druggability: [
-    {
-      sm_druggability_bucket: 3,
-      safety_bucket: 4,
-      abability_bucket: 3,
-      pharos_class: 'Tbio',
-      classification:
-        'Targetable by structure: Structurally druggable protein, based on the presence of a druggable pocket in the protein (DrugEBIlity/CanSAR).',
-      safety_bucket_definition:
-        'More than two of: high off target gene expression, cancer driver, essential gene, associated deleterious genetic disorder, HPO phenotype associated gene, or black box warning on clinically used drug.',
-      abability_bucket_definition:
-        'Cell membrane-bound proteins. Highly accessible to antibody-based therapies, but potentially less so than secreted proteins or ECM components.',
-    },
-  ],
+  druggability: {
+    sm_druggability_bucket: 3,
+    safety_bucket: 4,
+    abability_bucket: 3,
+    pharos_class: ['Tbio'],
+    classification:
+      'Targetable by structure: Structurally druggable protein, based on the presence of a druggable pocket in the protein (DrugEBIlity/CanSAR).',
+    safety_bucket_definition:
+      'More than two of: high off target gene expression, cancer driver, essential gene, associated deleterious genetic disorder, HPO phenotype associated gene, or black box warning on clinically used drug.',
+    abability_bucket_definition:
+      'Cell membrane-bound proteins. Highly accessible to antibody-based therapies, but potentially less so than secreted proteins or ECM components.',
+  },
   total_nominations: 5,
   rna_differential_expression: [
     {
@@ -3129,20 +3127,18 @@ export const geneMock2: Gene = {
       tissue: 'STG',
     },
   ],
-  druggability: [
-    {
-      sm_druggability_bucket: 3,
-      safety_bucket: 4,
-      abability_bucket: 3,
-      pharos_class: 'Tbio',
-      classification:
-        'Targetable by structure: Structurally druggable protein, based on the presence of a druggable pocket in the protein (DrugEBIlity/CanSAR).',
-      safety_bucket_definition:
-        'More than two of: high off target gene expression, cancer driver, essential gene, associated deleterious genetic disorder, HPO phenotype associated gene, or black box warning on clinically used drug.',
-      abability_bucket_definition:
-        'Cell membrane-bound proteins. Highly accessible to antibody-based therapies, but potentially less so than secreted proteins or ECM components.',
-    },
-  ],
+  druggability: {
+    sm_druggability_bucket: 3,
+    safety_bucket: 4,
+    abability_bucket: 3,
+    pharos_class: ['Tbio'],
+    classification:
+      'Targetable by structure: Structurally druggable protein, based on the presence of a druggable pocket in the protein (DrugEBIlity/CanSAR).',
+    safety_bucket_definition:
+      'More than two of: high off target gene expression, cancer driver, essential gene, associated deleterious genetic disorder, HPO phenotype associated gene, or black box warning on clinically used drug.',
+    abability_bucket_definition:
+      'Cell membrane-bound proteins. Highly accessible to antibody-based therapies, but potentially less so than secreted proteins or ECM components.',
+  },
   total_nominations: 3,
   is_adi: false,
   is_tep: true,
@@ -3257,20 +3253,18 @@ export const geneMock3: Gene = {
       tissue: 'STG',
     },
   ],
-  druggability: [
-    {
-      sm_druggability_bucket: 3,
-      safety_bucket: 4,
-      abability_bucket: 3,
-      pharos_class: 'Tbio',
-      classification:
-        'Targetable by structure: Structurally druggable protein, based on the presence of a druggable pocket in the protein (DrugEBIlity/CanSAR).',
-      safety_bucket_definition:
-        'More than two of: high off target gene expression, cancer driver, essential gene, associated deleterious genetic disorder, HPO phenotype associated gene, or black box warning on clinically used drug.',
-      abability_bucket_definition:
-        'Cell membrane-bound proteins. Highly accessible to antibody-based therapies, but potentially less so than secreted proteins or ECM components.',
-    },
-  ],
+  druggability: {
+    sm_druggability_bucket: 3,
+    safety_bucket: 4,
+    abability_bucket: 3,
+    pharos_class: ['Tbio'],
+    classification:
+      'Targetable by structure: Structurally druggable protein, based on the presence of a druggable pocket in the protein (DrugEBIlity/CanSAR).',
+    safety_bucket_definition:
+      'More than two of: high off target gene expression, cancer driver, essential gene, associated deleterious genetic disorder, HPO phenotype associated gene, or black box warning on clinically used drug.',
+    abability_bucket_definition:
+      'Cell membrane-bound proteins. Highly accessible to antibody-based therapies, but potentially less so than secreted proteins or ECM components.',
+  },
   total_nominations: null,
   is_adi: false,
   is_tep: true,
@@ -3441,20 +3435,18 @@ export const nominatedGeneMock1: Gene = {
     },
   ],
   median_expression: [],
-  druggability: [
-    {
-      sm_druggability_bucket: 3,
-      safety_bucket: 4,
-      abability_bucket: 3,
-      pharos_class: 'Tbio',
-      classification:
-        'Targetable by structure: Structurally druggable protein, based on the presence of a druggable pocket in the protein (DrugEBIlity/CanSAR).',
-      safety_bucket_definition:
-        'More than two of: high off target gene expression, cancer driver, essential gene, associated deleterious genetic disorder, HPO phenotype associated gene, or black box warning on clinically used drug.',
-      abability_bucket_definition:
-        'Cell membrane-bound proteins. Highly accessible to antibody-based therapies, but potentially less so than secreted proteins or ECM components.',
-    },
-  ],
+  druggability: {
+    sm_druggability_bucket: 3,
+    safety_bucket: 4,
+    abability_bucket: 3,
+    pharos_class: ['Tbio'],
+    classification:
+      'Targetable by structure: Structurally druggable protein, based on the presence of a druggable pocket in the protein (DrugEBIlity/CanSAR).',
+    safety_bucket_definition:
+      'More than two of: high off target gene expression, cancer driver, essential gene, associated deleterious genetic disorder, HPO phenotype associated gene, or black box warning on clinically used drug.',
+    abability_bucket_definition:
+      'Cell membrane-bound proteins. Highly accessible to antibody-based therapies, but potentially less so than secreted proteins or ECM components.',
+  },
   total_nominations: 4,
   is_adi: false,
   is_tep: false,
@@ -3544,20 +3536,18 @@ export const noHGNCgeneMock: Gene = {
     },
   ],
   median_expression: [],
-  druggability: [
-    {
-      sm_druggability_bucket: 3,
-      safety_bucket: 4,
-      abability_bucket: 3,
-      pharos_class: 'Tbio',
-      classification:
-        'Targetable by structure: Structurally druggable protein, based on the presence of a druggable pocket in the protein (DrugEBIlity/CanSAR).',
-      safety_bucket_definition:
-        'More than two of: high off target gene expression, cancer driver, essential gene, associated deleterious genetic disorder, HPO phenotype associated gene, or black box warning on clinically used drug.',
-      abability_bucket_definition:
-        'Cell membrane-bound proteins. Highly accessible to antibody-based therapies, but potentially less so than secreted proteins or ECM components.',
-    },
-  ],
+  druggability: {
+    sm_druggability_bucket: 3,
+    safety_bucket: 4,
+    abability_bucket: 3,
+    pharos_class: ['Tbio'],
+    classification:
+      'Targetable by structure: Structurally druggable protein, based on the presence of a druggable pocket in the protein (DrugEBIlity/CanSAR).',
+    safety_bucket_definition:
+      'More than two of: high off target gene expression, cancer driver, essential gene, associated deleterious genetic disorder, HPO phenotype associated gene, or black box warning on clinically used drug.',
+    abability_bucket_definition:
+      'Cell membrane-bound proteins. Highly accessible to antibody-based therapies, but potentially less so than secreted proteins or ECM components.',
+  },
   total_nominations: 4,
   is_adi: false,
   is_tep: false,

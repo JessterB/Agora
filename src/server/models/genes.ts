@@ -53,7 +53,7 @@ const DruggabilitySchema = new Schema<Druggability>({
   sm_druggability_bucket: { type: Number, required: true },
   safety_bucket: { type: Number, required: true },
   abability_bucket: { type: Number, required: true },
-  pharos_class: { type: String, required: true },
+  pharos_class: { type: [String], required: true },
   classification: { type: String, required: true },
   safety_bucket_definition: { type: String, required: true },
   abability_bucket_definition: { type: String, required: true },
@@ -76,7 +76,7 @@ const GeneSchema = new Schema<Gene>(
     protein_brain_change_studied: { type: Boolean, required: true },
     target_nominations: { type: [TargetNominationSchema], required: true },
     median_expression: { type: [MedianExpressionSchema], required: true },
-    druggability: { type: [DruggabilitySchema], required: true },
+    druggability: { type: DruggabilitySchema, required: true },
     total_nominations: { type: Number, required: true },
     ensembl_info: { type: EnsemblInfoSchema, required: true }
   },
