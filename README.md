@@ -15,7 +15,7 @@
 
 You can now find this project as part of the monorepo at:
 
-➡**[https://github.com/Sage-Bionetworks/sage-monorepo](https://github.com/Sage-Bionetworks/sage-monorepo)**  
+**[https://github.com/Sage-Bionetworks/sage-monorepo](https://github.com/Sage-Bionetworks/sage-monorepo)**  
 
 
 For information about the sage-monorepo, see the [sage-monorepo README]([https://github.com/your-org/your-monorepo#readme](https://github.com/Sage-Bionetworks/sage-monorepo/blob/main/README.md)).
